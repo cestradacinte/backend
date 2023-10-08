@@ -13,4 +13,3 @@ class Venta(models.Model):
         ('No_pagado', 'No_pagado')
     )
     estado = models.CharField(max_length=255, choices=ESTADO_CHOICES, default='No_pagado')
-# Create your models here.
